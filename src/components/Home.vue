@@ -3,8 +3,7 @@
     <div class="flex justify-center mv3">
       <div class="bgb br4 brb ph4 pv2 flex flex-column items-center">
         <span style="background-image: none;" class="alert-info"
-          >Você está utilizando o <b>UFCGPro</b>. Veja todas as
-          <a target="_blank" class="underline" href="https://bit.ly/ufcgpro-funcionalidades">funcionalidades</a>.</span
+          >Você está utilizando o <b>UFCGPro</b>. Veja todas as <a target="_blank" class="underline" href="https://bit.ly/ufcgpro-funcionalidades">funcionalidades</a>.</span
         >
         <span class="text-center f2 b mt4" v-if="!temTurmas">Parece que você está sem turmas!</span>
         <span class="text-center f2 b mt4" v-if="temTurmas" v-html="aulaAtual"></span>
@@ -32,6 +31,11 @@
           <li>
             <a target="_blank" href="http://analytics.lsd.ufcg.edu.br/cursosufcg/#/">
               Cursos UFCG - Consulte as grades curriculares e planeje sua graduação
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://bvirtual.com.br/">
+              Biblioteca Virtual Pearson
             </a>
           </li>
         </ul>
